@@ -43,19 +43,5 @@
     "numberOfBedrooms": 2,
     "numberOfBathrooms": 2,
     "incomeGenerated": 1200
-  },
-  {
-    "owner": "elaine",
-    "address": {
-      "line1": "239",
-      "line4": "Lower High St",
-      "postCode": "WD17 2BD",
-      "city": "Watford",
-      "country": "U.K."
-    },
-    "airbnbId": 12220058,
-    "numberOfBedrooms": 2,
-    "numberOfBathrooms": 2,
-    "incomeGenerated": 1200
   }
 ]

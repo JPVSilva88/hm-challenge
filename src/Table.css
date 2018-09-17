@@ -1,0 +1,89 @@
+.table {
+  width: 60vw;
+}
+
+.table__header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 40vw;
+  background: #5DC4C5;
+  color: white;
+  height: 50px;
+}
+
+.table__row:nth-child(2) {
+  margin-top: 50px;
+}
+
+.table__header, .table__row {
+  display: flex;
+  border-bottom: solid 1px #ccc;
+}
+
+.table__row:hover {
+  background: #eee;
+}
+
+.table__header > *, .table__row > * {
+  padding: 10px;
+  align-self: center;
+}
+
+.table__row {
+  color: #555;
+}
+
+.table__name {
+  width: 25%;
+  text-transform: capitalize;
+}
+
+.table__address {
+  width: 40%;
+}
+
+.table__income {
+  width: 25%;
+}
+
+.table__circle {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.table__circle > div {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+}
+
+.table__circle--yes > div {
+  background-color: #2ecc71;
+}
+
+.table__circle--unknown > div {
+  background-color: #ffd43f;
+}
+
+.table__circle--no > div {
+  background-color: #f05b64;
+}
+
+@media (max-width: 768px) {
+  .table {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .table__header {
+    right: 0;
+  }
+}

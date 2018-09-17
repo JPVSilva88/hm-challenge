@@ -1,0 +1,11 @@
+.map {
+  width: 40vw;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .map {
+    width: 100vw;
+    height: 40vh;
+  }
+}

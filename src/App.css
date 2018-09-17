@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  background: #fafafa;
+}
+
+.App > * {
+  overflow: auto;
+}
+
+.busy-spinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 100, 100, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
